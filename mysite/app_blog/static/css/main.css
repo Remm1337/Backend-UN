@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(
+        to right, #0a53be, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+}
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.position{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    background: white;
+}
+.logo{
+    text-align: center;
+    margin: 0;
+}
+.navbar {
+    border: 10px solid black;
+    border-radius: 5px;
+}
+.article-block{
+    margin: 50px;
+}
+.menu-button{
+    text-align: left;
+    left: 50px;
+    margin: 100px;
+}
